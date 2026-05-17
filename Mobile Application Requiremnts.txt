@@ -1,0 +1,584 @@
+AXA INSURANCE MOBILE APP — COMPLETE FIGMA DESIGN REQUIREMENTS
+
+========================================================
+1. PROJECT OVERVIEW
+========================================================
+
+Project Name:
+AXA Insurance Mobile App UI
+
+Platform:
+- Mobile Application UI
+- iPhone 14 / 15 Pro
+- Width: 390px
+- Height: 844px
+
+Design Style:
+- Modern Fintech UI
+- Premium Insurance App
+- Glassmorphism
+- Gradient UI
+- Rounded Corners
+- Dark + Light Theme
+- Smooth Animations
+
+========================================================
+2. FIGMA FILE STRUCTURE
+========================================================
+
+1. Cover Page
+2. Design System
+3. Components
+4. Login & Authentication
+5. Home Dashboard
+6. Payment Module
+7. AXA Fit Module
+8. Claims Module
+9. Profile Module
+10. Popups & Modals
+11. Prototype Flow
+
+========================================================
+3. DESIGN SYSTEM
+========================================================
+
+------------------------
+3.1 COLOR PALETTE
+------------------------
+
+Primary Colors:
+- AXA Red: #C91432
+- Dark Red: #9A0F26
+- AXA Blue: #003781
+- Gold: #F5A623
+
+Neutral Colors:
+- Light Background: #F5F5F7
+- Dark Background: #1A1A2E
+- Mid Dark: #2D2D44
+- White: #FFFFFF
+- Border Gray: #E0E0E8
+
+Status Colors:
+- Success: #2E7D32
+- Warning: #F57F17
+- Info: #1565C0
+- Error: #C91432
+
+------------------------
+3.2 TYPOGRAPHY
+------------------------
+
+Font Family:
+- Barlow
+- Barlow Condensed
+
+Text Styles:
+- Main Heading: 28px / 800
+- Screen Title: 22px / 800
+- Card Title: 16px / 700
+- Body Text: 14px / 500
+- Caption: 11px / 600
+- Label: 10px / 700
+
+------------------------
+3.3 BORDER RADIUS
+------------------------
+
+- Main Screen: 36px
+- Cards: 20px
+- Buttons: 14px
+- Inputs: 13px
+- Pills: 22px
+
+------------------------
+3.4 SHADOWS
+------------------------
+
+Card Shadow:
+0 4px 24px rgba(0,0,0,0.08)
+
+Floating Shadow:
+0 8px 40px rgba(201,20,50,0.18)
+
+========================================================
+4. COMPONENTS
+========================================================
+
+------------------------
+4.1 BUTTONS
+------------------------
+
+Primary Button:
+- Background: AXA Red
+- Text Color: White
+- Radius: 14px
+- Height: 52px
+
+States:
+- Default
+- Hover
+- Pressed
+- Disabled
+- Loading
+
+Outline Button:
+- White Background
+- Red Border
+- Red Text
+
+Social Buttons:
+- Google
+- Apple
+
+------------------------
+4.2 INPUT FIELDS
+------------------------
+
+Input Structure:
+- Label
+- Left Icon
+- Placeholder
+- Optional Right Icon
+
+States:
+- Empty
+- Focused
+- Error
+- Success
+- Password Visible
+
+------------------------
+4.3 CARDS
+------------------------
+
+Insurance Card:
+- Policy Number
+- Coverage Amount
+- Premium
+- Renewal Date
+- Status Badge
+
+Service Card:
+- Icon
+- Title
+- Description
+
+Notification Card:
+- Status Dot
+- Message
+- Time
+- Chevron Icon
+
+------------------------
+4.4 NAVIGATION
+------------------------
+
+Top Navigation Tabs:
+- Login
+- Home
+- Payment
+- AXA Fit
+- Claims
+- Profile
+
+Bottom Navigation:
+- Home
+- Pay
+- Fit
+- Claims
+- Profile
+
+Navigation States:
+- Active
+- Inactive
+
+========================================================
+5. LOGIN SCREEN
+========================================================
+
+Layout:
+- Dark Gradient Background
+- Floating Particles
+- Center AXA Logo
+- Sign In / Sign Up Tabs
+
+------------------------
+SIGN IN FORM
+------------------------
+
+Fields:
+- Email / Mobile
+- Password
+
+Buttons:
+- Sign In Securely
+- Google Login
+- Apple Login
+
+Extra:
+- Forgot Password
+- OTP Reset
+
+------------------------
+SIGN UP FORM
+------------------------
+
+Fields:
+- Full Name
+- Mobile Number
+- Email Address
+- Password
+
+Button:
+- Create Account
+
+========================================================
+6. HOME DASHBOARD SCREEN
+========================================================
+
+------------------------
+HEADER
+------------------------
+
+Contains:
+- Greeting Text
+- User Name
+- Notification Button
+
+------------------------
+INSURANCE SUMMARY CARD
+------------------------
+
+Display:
+- Coverage
+- Monthly Premium
+- Renewal Date
+
+------------------------
+QUICK ACTIONS
+------------------------
+
+Buttons:
+- File Claim
+- Hospital
+- Pay Premium
+- Download E-Card
+
+------------------------
+PROMO BANNER
+------------------------
+
+Travel Insurance Offer
+
+Contains:
+- Offer Tag
+- CTA Button
+- Gradient Background
+
+------------------------
+SERVICES GRID
+------------------------
+
+Cards:
+- Health Insurance
+- Motor Insurance
+- Home Insurance
+- Travel Insurance
+- Life Insurance
+- AXA Fit
+
+------------------------
+NOTIFICATIONS SECTION
+------------------------
+
+Recent Updates List
+
+========================================================
+7. PAYMENT SCREEN
+========================================================
+
+------------------------
+HEADER
+------------------------
+
+Contains:
+- Premium Title
+- Download Statement Button
+
+------------------------
+PREMIUM CARD
+------------------------
+
+Contains:
+- Card Number
+- User Name
+- Expiry Date
+
+------------------------
+PAYMENT SUMMARY
+------------------------
+
+Display:
+- Premium Amount
+- GST
+- Discount
+- Total Amount
+
+------------------------
+PAYMENT METHODS
+------------------------
+
+Options:
+- Card
+- UPI
+- Net Banking
+- Wallet
+
+Each Method Includes:
+- Icon
+- Description
+- Radio Selection
+
+------------------------
+PAY BUTTON
+------------------------
+
+Large CTA Button
+
+========================================================
+8. AXA FIT SCREEN
+========================================================
+
+------------------------
+FITNESS DASHBOARD
+------------------------
+
+Circular Progress Ring:
+- Steps Count
+- Goal Percentage
+
+------------------------
+FITNESS STATS
+------------------------
+
+Cards:
+- Calories
+- Distance
+- Heart Rate
+
+------------------------
+ACTIVITIES LIST
+------------------------
+
+Activity Cards:
+- Running
+- Cycling
+- Cardio
+- Yoga
+
+Each Card Includes:
+- Icon
+- Duration
+- Calories
+- Progress Bar
+
+------------------------
+WEEKLY STEPS CHART
+------------------------
+
+Bar Graph Display
+
+========================================================
+9. CLAIMS SCREEN
+========================================================
+
+Features:
+- Claims List
+- Claim ID
+- Amount
+- Status Badge
+- Progress Indicator
+
+Claim Status Types:
+- Approved
+- Pending
+- Under Review
+
+========================================================
+10. PROFILE SCREEN
+========================================================
+
+------------------------
+PROFILE HEADER
+------------------------
+
+Contains:
+- Avatar
+- Premium Badge
+- User Information
+
+------------------------
+PROFILE STATS
+------------------------
+
+Display:
+- Policies
+- Claims
+- Rewards
+
+------------------------
+MENU ITEMS
+------------------------
+
+Options:
+- Personal Info
+- Security
+- Notifications
+- Payment Methods
+- Settings
+- Logout
+
+========================================================
+11. MODALS & POPUPS
+========================================================
+
+Modal Bottom Sheet:
+- Rounded Top Corners
+- Blur Overlay
+
+Examples:
+- OTP Verification
+- Hospital Search
+- Payment Success
+- Claim Details
+
+Toast Notifications:
+- Success
+- Error
+- Warning
+- Info
+
+========================================================
+12. PROTOTYPE INTERACTIONS
+========================================================
+
+Flows:
+- Login → Home
+- Home → Claims
+- Home → Payment
+- Home → AXA Fit
+- Navigation → Profile
+
+========================================================
+13. ANIMATIONS
+========================================================
+
+Use Smart Animate in Figma
+
+Animations:
+- Screen Transitions
+- Button Hover
+- Loading Spinner
+- Card Hover Lift
+- Progress Fill
+- Modal Slide Up
+- Toast Fade In
+
+========================================================
+14. AUTO LAYOUT REQUIREMENTS
+========================================================
+
+Use:
+- Auto Layout
+- Constraints
+- Responsive Spacing
+
+Spacing System:
+- 4
+- 8
+- 12
+- 16
+- 20
+- 24
+- 32
+
+========================================================
+15. ASSETS REQUIRED
+========================================================
+
+Icons:
+- Tabler Icons
+- Material Icons
+
+Illustrations:
+- Insurance
+- Fitness
+- Health
+- Payment
+- Security
+
+========================================================
+16. RESPONSIVE DESIGN
+========================================================
+
+Devices:
+- iPhone 14 Pro
+- Android Large Screens
+
+Responsive Features:
+- Flexible Cards
+- Scrollable Sections
+- Adaptive Grids
+
+========================================================
+17. FINAL DELIVERABLES
+========================================================
+
+Deliverables:
+- Complete UI Screens
+- Components Library
+- Design System
+- Interactive Prototype
+- Developer Handoff
+
+========================================================
+18. SUGGESTED FIGMA PLUGINS
+========================================================
+
+- Iconify
+- Autoflow
+- Content Reel
+- Blush
+- Charts
+- Unsplash
+
+========================================================
+19. FIGMA FOLDER STRUCTURE
+========================================================
+
+AXA Insurance App
+|
+|-- Cover
+|-- Design System
+|-- Components
+|-- Login
+|-- Home
+|-- Payment
+|-- AXA Fit
+|-- Claims
+|-- Profile
+|-- Prototype
+
+========================================================
+20. UI DESIGN GOALS
+========================================================
+
+The UI should feel:
+- Premium
+- Modern
+- Secure
+- Clean
+- Interactive
+- Professional
+- Fintech + Insurance Experience
